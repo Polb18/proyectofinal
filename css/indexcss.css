@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-image: url('../imagenes/musica.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita la repetición de la imagen */
+    color: #333; /* Cambiado el color del texto para hacerlo más legible */
+}
+
+header {
+    background: #343a40; /* Cambia al color que desees */
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #343a40; /* Color del fondo del menú */
+    text-align: center;
+}
+
+nav ul li {
+    position: relative;
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav ul li ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #495057; /* Color del fondo del submenu */
+    padding: 10px;
+    z-index: 1; /* Asegura que el submenu esté sobre el contenido */
+}
+
+nav ul li:hover ul.submenu {
+    display: block;
+}
+
+nav ul li ul.submenu li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+nav ul li ul.submenu li a {
+    color: #ffffff;
+}
+
+.container {
+    padding: 20px;
+}
+
+.container section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #8B4513; /* Marrón oscuro */
+    margin-top: 0;
+}
+
+
+p {
+    color: #333; /* Cambiado el color del texto para hacerlo más legible */
+    line-height: 1.5;
+}
+.container {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7); /* Color de fondo semitransparente */
+    border-radius: 10px; /* Añadir bordes redondeados para un aspecto más estilizado */
+}

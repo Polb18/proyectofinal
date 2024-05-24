@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+h1 {
+    color: #8B4513;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333333; /* Color del fondo del menú */
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #555;
+}
+
+nav ul li ul.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #495057; /* Color del fondo del submenu */
+    padding: 10px;
+    z-index: 1; /* Asegura que el submenu esté sobre el contenido */
+}
+
+nav ul li:hover ul.submenu {
+    display: block;
+}
+
+nav ul li ul.submenu li {
+    display: block;
+    margin-bottom: 5px;
+}
+
+nav ul li ul.submenu li a {
+    color: #ffffff;
+    padding: 10px 15px;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.9); /* Fondo blanco con opacidad */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra */
+    margin: 20px auto;
+    max-width: 800px;
+    padding: 20px;
+}
+
+h2 {
+    color: #8B4513; /* Color marrón madera */
+    margin-top: 0;
+}
+
+p {
+    color: #333; /* Color del texto */
+    line-height: 1.5;
+}
